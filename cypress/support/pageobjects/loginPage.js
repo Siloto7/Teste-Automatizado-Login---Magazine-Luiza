@@ -14,15 +14,23 @@ class LoginPage {
     }
 
     preencherCampoEmail() {
-        cy.get(loginElements.inputEmail()).type(Cypress.config("email"))
+        cy.get(loginElements.inputEmail()).type("lessicomchapeu@gmail.com")
     }
 
     preencherEspacoSenha() {
-        cy.get(loginElements.inputSenha()).type(Cypress.config("senha"))
+        cy.get(loginElements.inputSenha()).type("Senha123!")
     }
 
     clicarParaContinuar() {
-        cy.get(loginElements.botaoContinuar()).click()
+        cy.get(loginElements.botaoContinuar()).click();
+    }
+
+    digitarBusca() {
+        cy.get(loginElements.inputBusca()).type("iphone");
+    }
+
+    buscarProduto() {
+        cy.get(loginElements.botaoBuscar()).click();
     }
 }
 

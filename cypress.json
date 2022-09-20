@@ -2,7 +2,8 @@
   "viewportWidth": 1366,
   "viewportHeight": 768,
   "defaultCommandTimeout": 10000,
-  "baseUrl": "https://www.carrefour.com.br/",
-  "email":"leticiasiloto@hotmail.com",
-  "senha": "Senha123!"
+  "baseUrl": "https://www.magazineluiza.com.br/",
+  "email":"lessicomchapeu@gmail.com",
+  "senha": "Senha123!",
+  "produto": "iphone"
 }

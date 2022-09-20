@@ -1,11 +1,15 @@
 class LoginElements {
-    botaoLogin = () => '.carrefourbr-carrefour-components-0-x-loginSpan.link' 
+    botaoLogin = () => '[data-testid="stereo-login_menu-unsigned_user_state-container"] > [data-testid="link"]'; 
   
-    botaoContinuar = () => '#loginButton' 
+    inputEmail = () => '#LoginBox-form > :nth-child(1) [name=login]';
 
-    inputEmail = () => "#inputEmail"
+    inputSenha = () => '#LoginBox-form > :nth-child(2) [name=password]';
 
-    inputSenha = () => "#inputPassword"
+    botaoContinuar = () => '#LoginBox-form > .LoginBox-form-continue';
+
+    inputBusca = () => '#input-search';
+
+    botaoBuscar = () => "[data-testid='search-submit']"
   }
   
   export default LoginElements;
